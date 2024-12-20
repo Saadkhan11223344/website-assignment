@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2
+}
+#header{
+    color: #c0c0c0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: solid 1px #3b3b3b9d;
+    background: #6b3400;
+}
+#header img{
+    width: 180px;
+}
+#header img:hover{
+    cursor: pointer;
+}
+#header menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+#header menu ul a{
+    list-style: none;
+    font-weight: 600;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+#header menu ul a:hover{
+    color: #c0c0c0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#header menu ul a:active{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+main .about {
+    width: 100%;
+    height: 552px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+main .about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+main .about p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+  main .about h3 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+footer {
+    background-color: #000000;
+}
+  footer .container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    text-align: center;
+}

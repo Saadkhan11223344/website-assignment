@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2
+}
+#header{
+    color: #c0c0c0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: solid 1px #3b3b3b9d;
+    background: #6b3400;
+}
+#header img{
+    width: 180px;
+}
+#header img:hover{
+    cursor: pointer;
+}
+#header menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+#header menu ul a{
+    list-style: none;
+    font-weight: 600;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+#header menu ul a:hover{
+    color: #c0c0c0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#header menu ul a:active{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+main .blog {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0px;
+}
+main .blog .post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+main .blog .post h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+main .blog .post .date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+main .blog .post p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}  
+main .blog .post .read-more {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+} 
+footer {
+    background-color: #000000;
+}
+footer .container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    text-align: center;
+}

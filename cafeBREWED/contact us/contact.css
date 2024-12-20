@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2
+}
+#header{
+    color: #c0c0c0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: solid 1px #3b3b3b9d;
+    background: #6b3400;
+}
+#header img{
+    width: 180px;
+}
+#header img:hover{
+    cursor: pointer;
+}
+#header menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+#header menu ul a{
+    list-style: none;
+    font-weight: 600;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+#header menu ul a:hover{
+    color: #c0c0c0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#header menu ul a:active{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+#contact{
+    color: #c0c0c0;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+#contact .sub1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #000;
+}
+#contact .sub1 h1{
+    color: bisque;
+    font-size: 95px;
+}
+#contact .sub1 p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#contact .sub2{
+    background: #402218;
+    padding-left: 100px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+}
+#contact .sub2 h2{
+    font-size: 35px;
+}
